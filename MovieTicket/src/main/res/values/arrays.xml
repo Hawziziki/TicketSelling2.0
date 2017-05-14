@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="usercenter">
+        <item>我的订单</item>
+        <item>消费订单</item>
+        <item>未消费订单</item>
+        <item>退订订单</item>
+    </string-array>
+</resources>

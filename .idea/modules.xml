@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MovieTicket/MovieTicket.iml" filepath="$PROJECT_DIR$/MovieTicket/MovieTicket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TicketSelling2.0.iml" filepath="$PROJECT_DIR$/TicketSelling2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+    </modules>
+  </component>
+</project>

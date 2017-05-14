@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.me.movieticket.views.TabUserView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/title"
+        android:background="@color/title"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="影评"
+            android:textSize="@dimen/movie_title_size"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:id="@+id/review_photo"
+        android:background="@mipmap/review_bg"/>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/review_photo"
+        android:divider="@color/list_view_divider"
+        android:dividerHeight="2dp"
+        android:id="@+id/lv_list">
+    </ListView>
+
+
+</com.me.movieticket.views.TabUserView>

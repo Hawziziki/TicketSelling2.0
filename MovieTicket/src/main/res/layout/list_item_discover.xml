@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/review_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:text="听风说你哭了"
+        android:textSize="15sp"
+        android:textColor="#b11c1c"/>
+
+    <TextView
+        android:id="@+id/review_movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/review_user_name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:text="星际穿越"
+        android:textColor="#acacac"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6.8"
+        android:layout_below="@id/review_user_name"
+        android:layout_toRightOf="@+id/review_movie_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"
+        android:textColor="#F55511"
+         />
+
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这部电影画面非常震撼，主角很帅啊*_*!"
+        android:layout_below="@+id/review_movie_name"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"/>
+
+
+</RelativeLayout>
